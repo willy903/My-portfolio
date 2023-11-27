@@ -1,0 +1,82 @@
+.herosection {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(176deg, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 0.11817226890756305) 93%);
+    width: 100%;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.row {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col-1 {
+    display: flex;
+}
+
+.col-1 {
+    width: 50%;
+    margin-left: -40px;
+}
+
+.col-2 {
+    padding-left: 40px;
+}
+
+.col h5 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ff1133;
+}
+
+.col h1 {
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1b2324;
+}
+
+.container-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrowButt {
+    padding: 10px;
+    background: #ff1133;
+    border: none;
+    border-top-right-radius: 16px;
+}
+
+.container-button h3 {
+    text-transform: capitalize;
+}
+
+.divider {
+    margin-top: 20px;
+    width: 300px;
+    border-bottom: #1b232469 2px solid;
+}
+
+.social-network {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.social-network div {
+    width: 30px;
+    height: 30px;
+    border: 3px solid rgb(0, 120, 144);
+    border-radius: 50%;
+    padding: 10px;
+}
