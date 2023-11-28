@@ -1,6 +1,8 @@
 .herosection {
     background: rgb(255, 255, 255);
-    background: linear-gradient(176deg, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 0.11817226890756305) 93%);
+    background: linear-gradient(187deg, rgba(255, 255, 255, 0) 9%, rgba(0, 212, 255, 0.08175770308123254) 93%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(218deg, rgba(255, 255, 255, 0) 58%, rgba(255, 109, 168, 0.2862394957983193) 94%);
     width: 100%;
 }
 

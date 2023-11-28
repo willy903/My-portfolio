@@ -1,0 +1,84 @@
+.services {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 9%;
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(128deg, rgba(255, 255, 255, 0) 9%, rgba(0, 212, 255, 0.08175770308123254) 93%);
+    overflow-x: hidden;
+}
+
+.services .item1 {
+    min-width: 30%;
+}
+
+.item1 h4 {
+    color: #ff1133;
+    font-size: 30px;
+}
+
+.item1 p {
+    font-family: 'Noto sans';
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 43px;
+}
+
+.item1 h4,
+.item1 p {
+    margin-bottom: 20px;
+}
+
+.item2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.confArrow {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background: #ff1133;
+    margin: 5px;
+}
+
+.confArrow1 {
+    background: #636363;
+}
+
+.circle {
+    background: #9c00b7;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #6363636a;
+    margin-right: 50px;
+    background: #fff;
+}
+
+.corp {
+    text-align: center;
+}
+
+.corp h1 {
+    font-size: 30px;
+    color: #1b2324;
+}
+
+.corp p {
+    padding: 10px;
+}

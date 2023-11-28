@@ -14,3 +14,7 @@ h5,
 h6 {
     font-family: 'Noto sans';
 }
+
+body {
+    background: #00d5ff04;
+}
