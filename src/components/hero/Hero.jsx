@@ -5,6 +5,7 @@ import arrow from "./../assets/arrow.png";
 import fblogo from "./../assets/fblogo.png";
 import ln from "./../assets/linklogo.png";
 import hub from "./../assets/hublogo.png";
+import resume from "./../assets/HERINIAINA_WILLY_JACQUINO(CV).pdf"
 
 const Hero = () => {
   return (
@@ -20,22 +21,34 @@ const Hero = () => {
               Professional <br />
               UI/UX designer <br />& Web developper
             </h1>
-            <div className="container-button">
-              <button className="arrowButt">
-                <img src={arrow} alt="" width={"30px"} height={"auto"} />
-              </button>
-              <h3>Hire me now</h3>
+            <div className="cv">
+              <a href={resume} download="HERINIAINA WILLY JACQUINO(CV)" title="Pdf">
+                <button className="arrowButt">
+                  <img src={arrow} alt="" width={"30px"} height={"auto"} />
+                </button>
+                <h3>Download My CV</h3>
+              </a>
             </div>
             <div className="divider"></div>
             <div className="social-network">
-              <div>
+              <div
+                onClick={() =>
+                  window.open("https://www.facebook.com/willy1jh/")
+                }
+              >
                 <img src={fblogo} alt="" width={"100%"} height={"auto"} />
               </div>
 
-              <div>
+              <div
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/willy-jacquino-heriniaina-6b6465111/"
+                  )
+                }
+              >
                 <img src={ln} alt="" width={"100%"} height={"auto"} />
               </div>
-              <div>
+              <div onClick={() => window.open("https://github.com/willy903")}>
                 <img src={hub} alt="" width={"100%"} height={"auto"} />
               </div>
             </div>

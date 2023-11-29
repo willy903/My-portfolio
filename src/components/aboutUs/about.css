@@ -1,0 +1,67 @@
+.about {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.collapse {
+    flex-wrap: wrap;
+}
+
+.description h4 {
+    padding-top: 40px;
+    color: #ff1133;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.description p {
+    font-family: 'Noto sans';
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 43px;
+    margin-top: 20px;
+}
+
+.description h6 {
+    font-weight: 100;
+    padding-top: 12px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.illustration {
+    width: 500px;
+}
+
+.separate {
+    border-bottom: 4px solid #ff1133;
+}
+
+.about {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(231deg, rgba(255, 255, 255, 0) 58%, rgba(89, 255, 253, 0.2862394957983193) 94%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(119deg, rgba(255, 255, 255, 0) 58%, rgba(255, 89, 159, 0.2862394957983193) 94%);
+    position: relative;
+}
+
+.about-me {
+    width: 100%;
+    position: absolute;
+    top: 450px;
+}
+
+.boite div {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 0 4px #707070;
+}
+
+.boite div h1 {
+    color: #ff1133;
+    font-size: 24px;
+    font-weight: 200;
+}
