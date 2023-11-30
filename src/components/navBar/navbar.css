@@ -1,3 +1,7 @@
+.navbar {
+    position: relative;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -35,4 +39,44 @@
     color: #fff;
     padding: 5px 30px;
     border-radius: 5px;
+}
+
+.icon-menu {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .icon-menu {
+        display: block;
+    }
+    .navContent {
+        display: none;
+    }
+    .container .logo img {
+        width: 70px;
+        height: auto;
+    }
+    .nav-mobile {
+        display: block;
+        background: rgb(94, 94, 94);
+        position: absolute;
+        width: 100%;
+        box-shadow: 0px 6px 2px #1b23344e;
+    }
+    .nav-mobile ul {
+        width: 80%;
+        margin: 0 auto;
+        list-style: none;
+    }
+    .nav-mobile ul li {
+        margin: 12px 0;
+        color: #ffffff;
+    }
+    .nav-mobile ul li a {
+        color: #ffffff;
+    }
 }

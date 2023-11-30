@@ -1,6 +1,7 @@
 .about {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .collapse {
@@ -47,7 +48,6 @@
 }
 
 .about-me {
-    width: 100%;
     position: absolute;
     top: 450px;
 }
@@ -55,8 +55,7 @@
 .boite div {
     margin: 0 auto;
     background-color: #fff;
-    width: 700px;
-    padding: 20px;
+    width: 50%;
     box-shadow: 0 0 4px #707070;
 }
 
@@ -64,4 +63,34 @@
     color: #ff1133;
     font-size: 24px;
     font-weight: 200;
+}
+
+.boite div h1,
+.boite div p {
+    padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .about-me {
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+    .boite div {
+        width: 100%;
+    }
+    .description h4 {
+        font-size: 24px;
+    }
+    .illustration {
+        padding-top: 20px;
+    }
+    .description p {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 24px;
+    }
+    .separate {
+        padding-top: 10px;
+    }
 }

@@ -7,6 +7,7 @@ import RE from './../assets/react.png'
 
 const Services = () => {
   return (
+    <div className="container-service">
     <div className='services' id='services'>
       <div className='item1'>
         <h4>Services</h4>
@@ -22,7 +23,7 @@ const Services = () => {
           </div>
           <div className="corp">
             <h1>Web design</h1>
-            <p>Web design: Harmonizing aesthetics and functionality for captivating, user-centric digital experiences.</p>
+            <p>Web design blends aesthetics, usability, and functionality, creating visually appealing, user-friendly digital experiences that resonate with target audiences and deliver optimal results.</p>
           </div>
         </div>
         <div className="card">
@@ -33,7 +34,7 @@ const Services = () => {
           </div>
           <div className="corp">
             <h1>Web Site</h1>
-            <p>React: Dynamic, reusable components for seamless, efficient web interfaces.</p>
+            <p>A website is a digital gateway, presenting information and services attractively, ensuring a seamless user experience and achieving specific business objectives effectively.</p>
           </div>
         </div>
         <div className="card">
@@ -44,9 +45,10 @@ const Services = () => {
           </div>
           <div className="corp">
             <h1>CMS</h1>
-            <p>WordPress: Versatile platform for creating and managing impactful websites effortlessly.</p>
+            <p>WordPress CMS empowers easy content management, versatile customization, and efficient site development, making it a go-to solution for dynamic websites.</p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

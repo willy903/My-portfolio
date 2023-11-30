@@ -1,7 +1,10 @@
+.container-service {
+    width: 100%;
+}
+
 .services {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-left: 9%;
+    width: 80%;
+    margin: 20px auto;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -10,7 +13,7 @@
 }
 
 .services .item1 {
-    min-width: 30%;
+    width: 100%;
 }
 
 .item1 h4 {
@@ -25,6 +28,7 @@
     font-weight: 800;
     text-transform: capitalize;
     line-height: 43px;
+    color: #1b2324;
 }
 
 .item1 h4,
@@ -79,15 +83,15 @@
 }
 
 .card {
-    width: 300px;
-    height: 300px;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px #6363636a;
-    margin-right: 50px;
     background: #fff;
+    padding: 30px 0;
+    margin: 10px 0;
 }
 
 .corp {
@@ -101,4 +105,21 @@
 
 .corp p {
     padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .item2 {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    .item1 h4 {
+        font-size: 20px;
+    }
+    .item1 p {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 25px;
+    }
 }

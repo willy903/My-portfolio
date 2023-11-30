@@ -4,7 +4,6 @@
 }
 
 .container-contact {
-    width: 500px;
     margin: 0 auto;
 }
 
@@ -22,6 +21,11 @@
     font-size: 24px;
     font-weight: 300;
     text-transform: capitalize;
+}
+
+.container-all {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .contact .title {
@@ -49,6 +53,8 @@
 .form-send label {
     font-size: 18px;
     text-transform: capitalize;
+    color: #1b2324;
+    font-weight: 700;
 }
 
 .form-send textarea {
@@ -73,4 +79,21 @@
     border: none;
     border-radius: 5px;
     background: #ffcf4c;
+}
+
+@media screen and (max-width: 767px) {
+    .contact {
+        padding: 20px;
+        position: relative;
+    }
+    .container-all {
+        width: 100%;
+    }
+    .form-send label {
+        font-size: 20px;
+        color: #1b2324;
+    }
+    .contact .title {
+        font-size: 30px;
+    }
 }

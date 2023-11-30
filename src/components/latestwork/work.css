@@ -9,6 +9,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card-work {
@@ -55,4 +56,14 @@
 
 .button-project button img {
     margin: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .work-container h1 {
+        font-weight: 800px;
+        color: #d3d3d3;
+    }
+    .card-work {
+        margin: 20px 0;
+    }
 }

@@ -17,6 +17,7 @@ const Contact = () => {
       };
   return (
     <div className="contact" id="contact">
+      <div className="container-all">
         <div className="success">
             <h1>Your message has been sent</h1>
         </div>
@@ -40,6 +41,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
+    </div>
     </div>
   );
 };

@@ -23,6 +23,9 @@
 
 .col-1 {
     width: 50%;
+}
+
+.col-1 {
     margin-left: -40px;
 }
 
@@ -64,7 +67,7 @@
 
 .divider {
     margin-top: 20px;
-    width: 300px;
+    width: 65%;
     border-bottom: #1b232469 2px solid;
 }
 
@@ -90,4 +93,46 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .hero {
+        margin-top: 0;
+    }
+    .col-1 {
+        display: none;
+    }
+    .col-2 {
+        padding-left: 0;
+    }
+    .col h5 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .col h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .arrowButt {
+        padding: 6px;
+    }
+    .cv a {
+        margin: 8px 0;
+    }
+    .cv a {
+        gap: 10px;
+    }
+    .arrowButt img {
+        width: 20px;
+        height: 20px;
+    }
+    .cv a h3 {
+        font-size: 14px;
+    }
+    .social-network div {
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+    }
 }
