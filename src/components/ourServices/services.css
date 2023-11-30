@@ -1,5 +1,7 @@
 .container-service {
     width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(128deg, rgba(255, 255, 255, 0) 9%, rgba(0, 212, 255, 0.08175770308123254) 93%);
 }
 
 .services {
@@ -8,12 +10,10 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(128deg, rgba(255, 255, 255, 0) 9%, rgba(0, 212, 255, 0.08175770308123254) 93%);
 }
 
 .services .item1 {
-    width: 100%;
+    width: 30%;
 }
 
 .item1 h4 {
@@ -39,7 +39,7 @@
 .item2 {
     width: 70%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -83,7 +83,7 @@
 }
 
 .card {
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,6 +108,7 @@
 }
 
 @media screen and (max-width: 767px) {
+    .services .item1,
     .item2 {
         width: 100%;
     }

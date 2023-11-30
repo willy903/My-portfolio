@@ -21,7 +21,8 @@ function NavBar() {
             </ul>
         </div>
         <div className="navContent">
-            <button>Let's talk</button>
+          <a href="#contact"><button>Let's talk</button></a>
+            
         </div>
         <div className="icon-menu">
             

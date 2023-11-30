@@ -8,6 +8,10 @@
     flex-wrap: wrap;
 }
 
+.description {
+    width: 50%;
+}
+
 .description h4 {
     padding-top: 40px;
     color: #ff1133;
@@ -15,18 +19,24 @@
     text-transform: uppercase;
 }
 
-.description p {
+.description .small {
     font-family: 'Noto sans';
     font-size: 40px;
     font-weight: 800;
     text-transform: capitalize;
     line-height: 43px;
-    margin-top: 20px;
+    margin-top: 8px;
+}
+
+.description .long {
+    font-family: 'Noto sans';
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .description h6 {
-    font-weight: 100;
-    padding-top: 12px;
+    font-weight: 700;
     font-size: 25px;
     text-transform: capitalize;
 }
@@ -36,6 +46,7 @@
 }
 
 .separate {
+    margin: 10px 0;
     border-bottom: 4px solid #ff1133;
 }
 
@@ -70,11 +81,30 @@
     padding: 10px;
 }
 
+.about-me {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
 @media screen and (max-width: 767px) {
-    .about-me {
+    .description {
         width: 100%;
-        position: relative;
-        top: 0;
+    }
+    .description .small {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 26px;
+    }
+    .description .long {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .description h6 {
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: capitalize;
+        line-height: 22px;
     }
     .boite div {
         width: 100%;
@@ -84,11 +114,6 @@
     }
     .illustration {
         padding-top: 20px;
-    }
-    .description p {
-        font-size: 20px;
-        font-weight: 800;
-        line-height: 24px;
     }
     .separate {
         padding-top: 10px;

@@ -4,11 +4,10 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const form = useRef();
-
     const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('service_8u22q17', 'template_p7iukjc', form.current, 'ux3Zo24c-3DD70qpA')
+        e.preventDefault();  
+        const API_Key = process.env.REACT_APP_API_KEY
+        emailjs.sendForm('service_8u22q17', 'template_p7iukjc', form.current, API_Key)
           .then((result) => {
               alert(result.text)
           }, (error) => {

@@ -1,12 +1,17 @@
 .footer {
     margin-top: 40px;
+    padding: 60px 0;
     width: 100%;
-    background: #402121;
+    background: rgb(80, 33, 0);
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-image: url('./../assets/bannerfooter.jpg');
+    background-position: center;
     background-size: cover;
+}
+
+.logo-footer {
+    background: #e37f1b3c
 }
 
 .potfolio-presentation {
@@ -16,14 +21,15 @@
     display: flex;
     justify-content: flex-start;
     gap: 20px;
-    background: #1b232437;
 }
 
 .mePresentation {
     width: 400px;
-    background: #e37f1b42;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+}
+
+.mePresentation p {
+    color: #ffffff;
+    font-size: 18px;
 }
 
 .logo-footer h4 {
@@ -39,8 +45,7 @@
     font-size: 24px;
     font-weight: 500;
     text-transform: capitalize;
-    color: #1b2324;
-    text-shadow: 0px 0px 2px #898989;
+    color: #e3801b;
 }
 
 .logo-footer,
@@ -61,9 +66,7 @@
 }
 
 .identity-icon img,
-.social-icon img {
-    filter: brightness(0) saturate(100%) invert(9%) sepia(32%) saturate(368%) hue-rotate(138deg) brightness(93%) contrast(90%);
-}
+.social-icon img {}
 
 @media screen and (max-width: 767px) {
     .potfolio-presentation {
